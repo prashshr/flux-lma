@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - grafana-charts.yaml
+  - prometheus-community-charts.yaml
+  - metrics-server-charts.yaml
+  - stakater-charts.yaml
+  - deliveryhero-charts.yaml
+  - bitnami-charts.yaml
+  - infracloudio-charts.yaml
+  - fairwinds-charts.yaml
+  - minio-charts.yaml
+
+#  - uptimerobot-operator-charts.yaml
